@@ -1,0 +1,376 @@
+/* her starter media rules for mobile */
+@media (min-width: 340px) and (max-width: 768px) {
+
+#tekstboks { 
+width: 30%;
+top: 570px;
+         }
+#vind { 
+width: 30%;
+top: 550px;
+    right: -00px;
+         }
+#image2 {  position: absolute;
+    transform: scale(1.0);
+width: 500px;
+height: 100%;
+margin-top: 50px;
+margin-left: -70px;
+    
+    
+    }
+    #image4 {
+ 
+   position: absolute;
+width: 500px;
+height: 100%;
+margin-top: 50px;
+margin-left: -0px;
+    
+
+         }
+/* Her styles flexbox containeren med værdier som passer til mobile */
+  .flex-container > div { display:flex; 
+margin-top: 600px;
+background: rgba(34, 82, 107, 0.8)!important;
+height: 200px;
+padding: 10px 20px 10px 30px;
+font-size: 10px;
+}  
+/* billede styles med størrelse og margin passende til mobile */
+#image {
+    position: absolute;
+    transform: scale(0.2);
+width: 400px;
+height: 56%;
+margin-top: 50px;
+margin-left: 50px;
+    }
+   /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+#kontakt1:link, #kontakt1:visited {
+position: absolute;
+left: 18%;
+top: 55%
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+    }
+#kontakt2:link, #kontakt2:visited {
+position: absolute;
+left: 10%;
+top: 65%
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+    }
+#kontakt3:link, #kontakt3:visited {
+position: absolute;
+left: 12%;
+top: 75%
+   
+    }
+       /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+#kontakt4:link, #kontakt4:visited {
+position: absolute;
+left: 20%;
+top: 75%
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+    }
+#kontakt5:link, #kontakt5:visited {
+position: absolute;
+left: 10%;
+top: 85%
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til mobile */   
+    }
+#kontakt6:link, #kontakt6:visited {
+position: absolute;
+left: 19%;
+top: 95%
+   
+    }
+    /* nav bar styles her for at tilpasse det mobile*/
+li a {
+position:absolute;
+margin-left: 10%;    
+color: white;
+text-align:left;
+    /* nav bar styles her for at tilpasse det mobile*/
+               }
+    li {
+position: relative;
+float: right;
+margin-right: 140px;
+padding: 1px 1px 1px 1px;
+font-size: 10px;
+}
+    
+    
+    
+    
+ 
+
+}
+/* her begynder css reglerne for desktop*/
+body {
+ /* baggrund indsættes i body for, at gøre sig gældende i alle html filer */
+  background: url(images/baggrund.png) no-repeat center center fixed;
+    background-size: cover;
+            
+    }
+ul {
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+overflow: hidden;
+background: rgba(34, 82, 107, 0.8)!important;
+height: 80px;
+top: 0;
+width: 100%;
+}
+
+li {
+float: right;
+padding: 10px 0px;
+    
+}
+
+li a {
+display: block;
+color: white;
+text-align: right;
+padding: 30px 50px;
+    }
+ /* Her styles logo */
+#logo {
+transform: scale(0.7);
+height:60px;
+margin-top: 5px;
+ 
+}
+ /* font-farven ændres */
+body {
+font-family: 'Alfa Slab One', cursive;
+color: white;
+     }
+#image { 
+    
+transform: scale(0.5);
+position: absolute;
+top: 0.5%;
+left:8%
+ 
+}
+  /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */   
+#kontakt1:link, #kontakt1:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 15%
+        
+    }
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */    
+#kontakt2:link, #kontakt2:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 25%
+        
+    }
+      /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */   
+#kontakt3:link, #kontakt3:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 22%
+        
+    }
+ /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */   
+#kontakt4:link, #kontakt4:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 15%
+        
+    }
+     /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */    
+#kontakt5:link, #kontakt5:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 25%
+        
+    }
+      /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */   
+#kontakt6:link, #kontakt6:visited {
+
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 15%
+        
+    }
+  /* Hver knap har fået et id for, at kunne styles individuelt så det passer til desktop */   
+.knapper:link, .knapper:visited {
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 37%;
+margin-left: 15%
+         }
+.informationsside:link, .informationsside:visited {
+color: white;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+background: rgba(34, 82, 107, 0.7)!important;
+font-family: 'Alfa Slab One', cursive;
+border-radius: 34%;
+width: 100px;
+margin-top: 40%;
+margin-left: 15%
+         }
+#image2 {
+
+position: absolute;
+margin-top: -80px;
+margin-left: 1%;
+height: 700px;
+    
+}
+#image4 {
+ 
+transform: scale(0.6);
+position: absolute;
+margin-top: -50px;
+left: 10%;
+
+}
+#image2 {
+transform: scale(0.5);
+position: absolute;
+margin-top: -70px;
+left: 10%;
+
+
+    
+}
+
+  /* Tekstboks på konkurrence.html tilpasses og justeres */   
+#tekstboks {
+position: absolute;
+height: 30%;
+padding: -1%;
+transform: scale(2.6);
+margin-top: 450px;
+    margin-left: 400px;
+
+}
+  /* Tekstboks på konkurrence.html tilpasses og justeres */   
+#tekstboks1{
+position: absolute;
+transform: scale(0.5);
+margin-top: 230px;
+margin-left: -400px
+ 
+}
+  /* Præmiebillede på konkurrence.html tilpasses og justeres */   
+#vind {
+position: absolute;
+height: 30%;
+padding: -3%;
+transform: scale(2.6);
+margin-top: 17%;
+margin-left: 1280px;
+}
+
+#information {
+position: absolute;
+height: 400px; 
+width: 1000px;
+margin-left: 120px;
+margin-top: 25px;
+        
+    
+}
+  /* Her laves footer så den matcher navbarens udtryk */   
+#footers {
+        
+
+list-style-type: none;
+padding: 22px;
+overflow: hidden;
+background: rgba(34, 82, 107, 0.8)!important;
+height: 80px;
+top: 0;
+width: 100%;
+     }
+
+#isinfo {
+font-size: 35px;
+margin-left: 350px;
+}
+
+/* Her styles flexbox containeren med værdier så den passer til desktop */
+.flex-container > div { display:flex; 
+top: 10%;
+background: rgba(34, 82, 107, 0.8)!important;
+height: 200px;
+padding: 20px;
+font-size: 30px;
+}
